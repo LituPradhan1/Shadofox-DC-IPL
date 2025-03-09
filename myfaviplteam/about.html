@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delhi Caitals</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <span class="menu-btn" onclick="toggleNav()">&#9776;</span>
+        <div class="header-content" style="margin-left: 50px;">
+            <h1 style="color: rgb(255, 255, 255);">Delhi Caitals</h1>
+            <img src="./logo.png" class="logo" alt="DC Logo">
+        </div>
+    </header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="sidebar">
+        <div class="container-fluid">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <a href="#" onclick="hideNav()" class="nav-link">Close ❌</a>
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active" aria-current="page" href="about.html">About</a>
+                        <a class="nav-link active" aria-current="page" href="members.html">Members</a>
+                        <a class="nav-link active" aria-current="page" href="./polls.html">Polls</a>
+                        <a class="nav-link active" aria-current="page" href="support.html">Support</a>
+                    </li>
+                </ul>
+            
+            
+            </div>
+        </div>
+    </nav>
+    <main>
+        <!-- <style>
+            li {
+                font-size: 25px;
+            }
+
+            strong {
+                font-size: 30px;
+            }
+
+            ul {
+                padding-left: 100px;
+            }
+            .contents h1{
+                padding-left: 20px;  
+                color: blue; 
+            }
+        </style> -->
+        <div class="contents">
+            <div class="overview">
+                <h1>Overview</h1>
+                <ul>
+                    <li><strong>Founded:</strong> 2008</li>
+                    <li><strong>Owner:</strong> GMR Group & JSW Sports</li>
+                    <li><strong>Captain:</strong> KL Rahul (most classical batsman in IPL history)</li>
+                    <li><strong>Coach:</strong> Hemang Badani</li>
+                    <li><strong>Home Ground:</strong> Arun Jaitley Stadium, New Delhi (also known as Feroz Shah Kotla)
+                    </li>
+                    <li><strong>Team Colors:</strong> dark blue, red, golden yellow</li>
+                    <li><strong>Mascot:</strong> The Roaring Tiger</li>
+                </ul>
+            </div>
+            <div class="success">
+                <h1>Success in IPL</h1>
+                <ul>
+                    <li><strong>Notable Achievements:</strong> Delhi Capitals have been strong contenders in the IPL
+                        with multiple playoff appearances.
+                    </li>
+                    <li><strong>Best Finish:</strong> Runners-up in 2020.
+                    </li>
+                    <li><strong>Playoff Appearances:</strong> Consistently reaching the top four in recent seasons
+                    </li>
+                    <li><strong>Win Percentage:</strong> One of the competitive teams in IPL history with a balanced
+                        squad.
+                    </li>
+                    <!-- <li><strong>Runners-up:</strong> Finished runners-up 1 times (2020).</li> -->
+                </ul>
+            </div>
+            <div class="captaincy">
+                <h1>Captaincy and Leadership</h1>
+                <ul>
+                    <li><strong>Captain:</strong> KL Rahul, known as one of the most classical Player in IPL cricket
+                        history.
+                    </li>
+                    <li><strong>Leadership Style:</strong> A tactically sound captain, leading from the front.</li>
+                    <li><strong>Captaincy Records:</strong> Experienced IPL captain with leadership stints in multiple
+                        franchises.</li>
+                    <li><strong>Influence on Team:</strong> Provides stability and a strong batting core.</li>
+                    <li><strong>Mentorship:</strong> Known for mentoring young talent, including nurturing the next
+                        generation of Indian cricketers.</li>
+                </ul>
+            </div>
+
+            <div class="keyplayers">
+                <h1>Key Players</h1>
+                <ul>
+                    <li><strong>KL Rahul:</strong>Captain and a top-order batsman known for his consistency.
+                    </li>
+                    <li><strong>Axar Patel:</strong> Experienced all-rounder, contributing with both bat and ball.</li>
+                    <li><strong>Kuldeep Yadav:</strong> Lead spinner with a strong track record in IPL.</li>
+                    <li><strong>Mitchel Strac:</strong> Premier fast bowler, lethal in powerplay and death overs.
+                    </li>
+                    <li><strong>Harry Brook:</strong> Aggressive middle-order batsman with game-changing abilities.</li>
+                </ul>
+            </div>
+            <div class="achievements">
+                <h1>Achievements</h1>
+                <ul>
+                    <li><strong>Best IPL Finish: </strong>Runners-up (2020).</li>
+                    <li><strong>Playoff Appearances:</strong> Regular contenders in the top four.</li>
+                    <li><strong>Leading Run Scorer:</strong> KL Rahul and Harry Brook are key batting assets.</li>
+                    <li><strong>Star Performers: </strong> Consistently among the best bowling attacks in IPL.</li>
+                    <!-- <li><strong>Leading Run Scorers:</strong> MS Dhoni and Suresh Raina have been among the leading
+                        run-scorers in the history of the IPL.</li> -->
+                </ul>
+            </div>
+            <div class="teamdetails">
+                <h1>Team Details</h1>
+                <ul>
+                    <li><strong>Owner:</strong> GMR Group & JSW Sports.</li>
+                    <li><strong>Captain:</strong> KL Rahul.
+                    </li>
+                    <li><strong>Head Coach:</strong> Hemang Badani.</li>
+                    <li><strong>Home Ground:</strong> Arun Jaitley Stadium, New Delhi.</li>
+                    <li><strong>Team Colors:</strong> Blue & Red.</li>
+                    <li><strong>Notable Players:</strong> Mitchell Starc, Axar Patel, Kuldeep Yadav, Harry Brook.
+                    </li>
+                    <li><strong>Official Website:</strong> <a href="https://www.delhicapitals.in/"
+                            target="_blank">delhicapitals.in</a></li>
+                </ul>
+            </div>
+            <div class="headcoaches">
+                <h1>Head Coaches</h1>
+                <ul>
+                    <li><strong>Hemang Badani (2025–Present):</strong> The former Indian cricketer was appointed as the
+                        head coach ahead of the 2025 season. </li>
+
+                    <li><strong>Ricky Ponting (2018–2024):</strong> The South African served as the head coach for this
+                        season.
+                    </li>
+                    <li><strong>Paddy Upton (2016):</strong> The South African served as the head coach for this season.
+                    </li>
+                    <li><strong>Gary Kirsten (2014–2015):</strong> The ex-India coach brought his expertise to the
+                        franchise during these years.
+                    </li>
+                    <li><strong>Trevor Bayliss (2013):</strong> The former Sri Lankan coach was at the helm for this
+                        season.</li>
+                    <li><strong>Eric Simons (2011–2012):</strong> The South African took over the coaching duties for
+                        these two seasons.
+
+                    </li>
+                    <li><strong>Greg Shipperd (2008–2010): </strong>The Australian coach led the team during the initial
+                        seasons.</li>
+                </ul>
+            </div>
+
+            <div class="seasonhighlights">
+                <h1>Season Highlights</h1>
+                <ul>
+                    <li><strong>2024:</strong> Finished as playoff contenders, showing great resilience throughout the
+                        season.</li>
+                    <li><strong>2023:</strong> A rebuilding phase with young talents emerging as key players.</li>
+                    <li><strong>2022:</strong> Strong start to the season but narrowly missed the final.</li>
+                    <li><strong>2021:</strong> One of their best performances, reaching the playoffs.</li>
+                    <li><strong>2020:</strong> A challenging season with the team failing to make it to the playoffs.
+                    </li>
+                    <li><strong>2019:</strong> Finished as runners-up, marking their best IPL campaign.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="rivalries">
+                <h1>Rivalries</h1>
+                <ul>
+                    <li><strong> Mumbai Indians:</strong> A fierce rivalry featuring several high-intensity matches.
+                    </li>
+                    <li><strong>Chennai Super Kings:</strong> Competitive encounters, especially in playoff clashes.
+                    </li>
+                    <li><strong>Kolkata Knight Riders:</strong> A historical rivalry with intense contests.</li>
+                    <li><strong>Royal Challengers Bangalore:</strong> Known for thrilling high-scoring games.
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="mncontent" align="center">
+            <h1>Delhi Capitals Welcomes you....</h1>
+            <p style="font-size: 35px;">Start your journey with <i><b>#YehHaiNayiDilli</b></i></p>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="container">
+            <p style="color: rgb(255, 255, 255);">&copy; 2024 Delhi Capitals Clone Maker. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
